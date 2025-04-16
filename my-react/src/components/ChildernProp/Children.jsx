@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { Fahrenheit, Kelvin, SomeTemperature } from "./Temperature";
+import {
+  Fahrenheit,
+  Kelvin,
+  SomeTemperature,
+} from "../LiftingStateUp/Temperature";
 // Input 컴포넌트의 props.children을 통해 자식으로 전달된 함수에 접근할 수 있다.
 // props.render에 사용자 입력 값을 전달하는 대신, props.children에 사용자 입력값을 전달한다.
 // -> 자식 컴포넌트들은 렌더링 prop의 이름에 구애받지 않고도 값에 접근할 수 있다.
