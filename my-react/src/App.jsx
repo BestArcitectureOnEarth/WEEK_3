@@ -1,13 +1,15 @@
 import "./App.css";
-import FetchImage from "./components/HigherOrder/FetchImage";
-import Styles from "./components/HigherOrder/Styles";
-import WithLoader from "./components/HigherOrder/withLoader";
+import MouseCircle from "./components/RenderingProps/Render/MouseCircle";
+import MouseText from "./components/RenderingProps/Render/MouseText";
 
 function App() {
   return (
     <>
       {/* <Styles /> */}
-      <FetchImage />
+      {/* <FetchImage /> */}
+      {/* <RenderTitle /> */}
+      <MouseText />
+      <MouseCircle />
     </>
   );
 }
